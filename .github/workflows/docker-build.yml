@@ -35,4 +35,4 @@ jobs:
           # only push image when we merge PRs or push to main branch
           push: ${{ github.event_name != 'pull_request' }}
           # hardcoded for a single name/tags
-          tags: ghcr.io/HardlyDevOps/wordsmith-web:latest
+          tags: ghcr.io/hardlydevops/wordsmith-web:latest
