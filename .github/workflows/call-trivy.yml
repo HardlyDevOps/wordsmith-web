@@ -1,0 +1,9 @@
+name: Call Trivy
+on:
+ push:
+   branches: [main]
+ pull_request:
+jobs:
+ scan:
+   name: Scan
+   uses: hardlydevops/actions/.github/workflows/reusable-trivy.yml@new-trivy
