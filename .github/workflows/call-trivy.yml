@@ -9,3 +9,4 @@ jobs:
    uses: hardlydevops/actions/.github/workflows/reusable-trivy.yml@add-space
    with:
      image: 'ghcr.io/hardlydevops/wordsmith-web:latest'
+# testing
