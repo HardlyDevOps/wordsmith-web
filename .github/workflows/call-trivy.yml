@@ -7,3 +7,5 @@ jobs:
  scan:
    name: Scan
    uses: hardlydevops/actions/.github/workflows/reusable-trivy.yml@new-trivy
+   with:
+    image: 'ghcr.io/hardlydevops/wordsmith-web:latest'
