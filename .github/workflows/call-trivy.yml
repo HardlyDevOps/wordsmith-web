@@ -6,6 +6,6 @@ on:
 jobs:
  scan:
    name: Scan
-   uses: hardlydevops/actions/.github/workflows/reusable-trivy.yml@new-trivy
+   uses: hardlydevops/actions/.github/workflows/reusable-trivy.yml@main
    with:
     image: 'ghcr.io/hardlydevops/wordsmith-web:latest'
