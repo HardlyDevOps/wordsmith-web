@@ -38,14 +38,14 @@ jobs:
       packages: write # needed to push docker image to ghcr.io
       pull-requests: write # needed to create and update comments in PRs
     
-    secrets:
+    #secrets:
 
       # Only needed if with:dockerhub-enable is true below
       # https://hub.docker.com/settings/security
       # dockerhub-username: ${{ secrets.DOCKERHUB_USERNAME }}
       # dockerhub-token: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    with:
+    #with:
       
       # NOTE: there are lots of input options for this reusable workflow
       # read the comments in the inputs area of the reusable workflow for more info
