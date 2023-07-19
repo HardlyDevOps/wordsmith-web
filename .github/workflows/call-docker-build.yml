@@ -80,3 +80,4 @@ jobs:
     uses: hardlydevops/actions/.github/workflows/reusable-trivy.yml@main
     with:
       image: 'ghcr.io/hardlydevops/wordsmith-web:${{ needs.call-docker-build.outputs.image-tag }}'
+
